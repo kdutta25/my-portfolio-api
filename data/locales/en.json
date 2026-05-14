@@ -1,0 +1,405 @@
+{
+  "site": {
+    "title": "Kaus Dutta",
+    "description": "Full Stack AI Application Developer and Design Lead at Nokia in Ottawa, Canada. Master's in Data Science from the University of Ottawa.",
+    "keywords": "Kaustubh Dutta, Full Stack Developer, React, TypeScript, Nokia, Ottawa, Data Science"
+  },
+  "nav": {
+    "skip": "Skip to main content",
+    "about": "About Me",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "skills": "Skills",
+    "github": "GitHub",
+    "readme": "README",
+    "volunteering": "Volunteering",
+    "publications": "Publications",
+    "support": "Support",
+    "resume": "Résumé",
+    "toggleTheme": "Toggle color theme",
+    "toggleLanguage": "Switch language",
+    "lightMode": "Light",
+    "darkMode": "Dark",
+    "brand": "Kaustubh Dutta"
+  },
+  "hero": {
+    "introEyebrow": "Kaustubh Dutta",
+    "headline": "FULL STACK\nDEVELOPER",
+    "tagline": "Truly fascinated by the way technology is evolving and that the human race is gradually moving towards achieving an infinite paradise of knowledge. Be it the thirst to reach the unreachable territories of the universe or developing a quintessential technology to understand the solar flares or achieving a quantum computer on the planet itself is what I feel is the distinguishing character of the human race that is indeed motivational and what sets us apart in this world.",
+    "roleLine": "Full Stack AI Application Developer · Design Lead",
+    "techStrip": "React · TypeScript · Webpack · Cypress · JEST · Open Street Map · AG Grid · Module Federation",
+    "location": "Ottawa, ON, Canada",
+    "ctaPrimary": "View work",
+    "ctaSecondary": "Contact",
+    "photoAlt": "Portrait of Kaustubh Dutta",
+    "badge": "Master's · University of Ottawa · Nokia",
+    "stats": [
+      { "value": "+10", "line1": "YEARS IN", "line2": "ENGINEERING" },
+      { "value": "+4", "line1": "FEATURED", "line2": "PROJECTS" },
+      { "value": "+15", "line1": "YEARS IN", "line2": "TECH & CODE" }
+    ]
+  },
+  "about": {
+    "heading": "ABOUT\nME",
+    "intro": "As a Software Engineer, I am fascinated by how technology evolves and how humanity moves toward an ever-expanding horizon of knowledge from exploring the universe to pursuing breakthroughs like quantum computing.",
+    "interestsLabel": "Key interests",
+    "interests": "Product Design · Women Welfare · Geopolitics · Education · Technology · Micro & Macro Economics · Environment",
+    "mottoLabel": "My motto",
+    "motto": "Think about an idea that the world has not thought about, yet.",
+    "activitiesIntro": "Apart from coding, some other activities that I love to do!",
+    "activities": ["Swimming", "Pickleball", "Ping Pong", "Photography"],
+    "connectLabel": "Connect",
+    "connectAria": "YouTube, Instagram, and LinkedIn",
+    "youtubeUrl": "https://www.youtube.com/@KausDiaries",
+    "instagramUrl": "https://www.instagram.com/kaustubh_dutta/",
+    "linkedinUrl": "https://www.linkedin.com/in/kaustubh-dutta/",
+    "youtubeAria": "YouTube — KausDiaries",
+    "instagramAria": "Instagram — @kaustubh_dutta",
+    "linkedinAria": "LinkedIn profile"
+  },
+  "skills": {
+    "sectionEyebrow": "Capabilities",
+    "sectionHeading": "PROFESSIONAL\nSKILLSET",
+    "skillLabels": {
+      "javascript": "JavaScript",
+      "cpp": "C++",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "react": "React",
+      "htmlCss": "HTML & CSS",
+      "mongodb": "MongoDB",
+      "git": "Git",
+      "mysql": "MySQL",
+      "python": "Python",
+      "java": "Java"
+    },
+    "toolLabels": {
+      "postman": "Postman",
+      "jenkins": "Jenkins",
+      "jira": "Jira",
+      "webpack": "Webpack",
+      "vite": "Vite",
+      "podman": "Podman",
+      "jfrog": "JFrog"
+    }
+  },
+  "aiModels": {
+    "sectionEyebrow": "AI",
+    "sectionHeading": "MODELS &\nASSISTANTS",
+    "items": [
+      {
+        "label": "Composer 2",
+        "image": "images/ai-models/composer-2.svg"
+      },
+      {
+        "label": "GPT 5.3 Codex",
+        "image": "images/ai-models/gpt-codex.svg"
+      },
+      {
+        "label": "Claude Opus 4.7",
+        "image": "images/ai-models/claude-opus.svg"
+      }
+    ]
+  },
+  "support": {
+    "eyebrow": "Support",
+    "heading": "BUY ME\nA COFFEE",
+    "lead": "If this portfolio or my work has been useful, you can leave a small thank-you — it helps keep side projects and open-source experiments going.",
+    "cta": "Buy me a coffee",
+    "url": "https://buymeacoffee.com/kaustubhdutta"
+  },
+  "githubActivity": {
+    "heading": "GITHUB\nACTIVITY",
+    "subtitle": "Contribution rhythm over the last year.",
+    "profileLink": "{{user}} on GitHub",
+    "username": "kdutta25"
+  },
+  "experience": {
+    "heading": "YEARS OF\nEXPERIENCE",
+    "companies": [
+      {
+        "id": "nokia",
+        "name": "Nokia",
+        "logo": "images/companies/nokia.svg",
+        "roles": [
+          {
+            "title": "Full Stack AI Application Developer II & Project Design Lead",
+            "period": "Feb 2024 — Present",
+            "location": "Ottawa, Canada",
+            "bullets": [
+              "Team Lead for User Manager, Group Manager and License Manager Web Application Module of Nokia's NSP Product.",
+              "Key role in defining epics and stories based on the new features conceptualized by PLM and UX.",
+              "Leading front-end design architecture as well as define the team capacity for each sprint."
+            ],
+            "stack": "Release Measurement · React 18 · Module Federation · TypeScript · Webpack 5 · Cypress · Regex · OpenStreetMap · AG Grid · Highcharts · D3 · Formik · Lodash · Popper · CodeMirror"
+          },
+          {
+            "title": "Full Stack AI Application Developer II",
+            "period": "Oct 2021 — Feb 2024",
+            "location": "Ottawa, Canada",
+            "bullets": [
+              "Development of Nokia's NSP Front End using Module Federation — a key feature of webpack 5 that allows deployable modules (micro-frontend) to be loaded on demand when they are needed.",
+              "Team Lead in the development of User Manager Module."
+            ],
+            "stack": "React 18 · Module Federation · TypeScript · Webpack 5 · JUnit · Regex · OpenStreetMap · AG Grid · Highcharts · D3"
+          },
+          {
+            "title": "Application Developer",
+            "period": "May 2020 — Oct 2021",
+            "location": "Ottawa, Canada",
+            "bullets": [
+              "Team Lead for Development of re-usable react core components in respective libraries for Nokia's NSP Product.",
+              "Library Versioning – Semantic."
+            ],
+            "stack": "React 16 · JavaScript · CSS Flex · AG Grid · Highcharts · Regex"
+          },
+          {
+            "title": "Software Developer & Data Scientist — Intern",
+            "period": "Jan 2020 — Apr 2020",
+            "location": "Ottawa, Canada",
+            "bullets": [
+              "Development of Automated Power BI reports to track and gain insights across Software Development Teams.",
+              "Analyzed Service Level Agreements using DAX and Power Queries to track Incoming JIRA Defect and Target Resolution Days for Nokia Software (NSW) Business Group."
+            ],
+            "stack": "Perl · Cron · MariaDB · DAX · Power BI Service"
+          },
+          {
+            "title": "Software Developer & Data Scientist — CO-OP",
+            "period": "Apr 2019 — Dec 2019",
+            "location": "Ottawa, Canada",
+            "bullets": [
+              "KPI Calculations and help PMO office to drive insights.",
+              "VBA Macros, Pivot Tables, Advanced Excel, Power Query."
+            ],
+            "stack": "VBA · Pivot tables · Excel · Power Query"
+          }
+        ]
+      },
+      {
+        "id": "capgemini",
+        "name": "Capgemini Technology Services",
+        "logo": "images/companies/capgemini.svg",
+        "roles": [
+          {
+            "title": "Senior Software Engineer",
+            "period": "July 2017 — June 2018",
+            "location": "India",
+            "bullets": [
+              "Enterprise SPA delivery with Angular and TypeScript.",
+              "Collaboration with UX on Willis Insurance and related client builds."
+            ],
+            "stack": "Angular · TypeScript"
+          },
+          {
+            "title": "Software Engineer",
+            "period": "May 2016 — June 2017",
+            "location": "India",
+            "bullets": [
+              "Developed UX Wireframes.",
+              "UI Design for Willis Insurance – single page application in AngularJS.",
+              "UX wireframes in Marvel with Angular and JavaScript."
+            ],
+            "stack": "AngularJS · JavaScript"
+          }
+        ]
+      },
+      {
+        "id": "jio",
+        "name": "Reliance Jio",
+        "logo": "images/companies/jio.svg",
+        "roles": [
+          {
+            "title": "Software Engineer Intern — Network Automation (LTE)",
+            "period": "May 2015 — June 2015",
+            "location": "India",
+            "bullets": [
+              "LTE Network Architecture.",
+              "Small Cell Planning.",
+              "OFDM Downlink & SC-FDMA Uplink.",
+              "LTE Channel Capacity.",
+              "Quality of Service (QoS).",
+              "Architecture of small / hard handoff."
+            ],
+            "stack": "LTE · OFDM · SC-FDMA · QoS · handoff design"
+          }
+        ]
+      },
+      {
+        "id": "siemens",
+        "name": "Siemens Networks",
+        "logo": "images/companies/siemens.svg",
+        "roles": [
+          {
+            "title": "Software Engineer Intern — Network Automation",
+            "period": "May 2014 — July 2014",
+            "location": "India",
+            "bullets": [
+              "Softstarters, Plotting & Analysis of Torque-Speed and Speed-Current curves using ABB Prosoft of 110-, 160- & 220-kW motors.",
+              "SIEMENS SIMARIS Curves & Tripping Characteristics using SIMOCODE — Dynamic & Powerful Smart Motor Management System.",
+              "Diesel Generator Sizing for the calculation of supplying emergency power to essential loads.",
+              "Calculation of phase correction in AC circuits to reduce voltage and current phase difference by using Capacitor Banks."
+            ],
+            "stack": "SIMARIS · SIMOCODE · motor analysis · DG sizing · capacitor banks"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "heading": "EDUCATION",
+    "items": [
+      {
+        "school": "University of Ottawa",
+        "degree": "Master's, Data Science (Computer Science & Business Technology)",
+        "period": "2018 — 2020",
+        "detail": "Grade A · Coursework spans software development (React, Angular, Java, SQL), data analytics, machine learning, BI, and operational excellence.",
+        "logo": "images/education/uottawa.svg"
+      },
+      {
+        "school": "KIIT — Kalinga Institute of Industrial Technology",
+        "degree": "Bachelor's, Electronics & Telecommunication · Micro-controller Software",
+        "period": "2012 — 2016",
+        "detail": "Projects: Computed Tomography image reconstruction, Dawn-to-Dusk lamp, Wireless Spybot. Societies: Robotic Society, Social Responsibility Cell.",
+        "logo": "images/education/kiit.svg"
+      },
+      {
+        "school": "St. Xavier's Collegiate School Kolkata",
+        "degree": "High School",
+        "period": "2000 — 2012",
+        "detail": "",
+        "logo": "images/education/sxcal.png"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "RECENT\nPROJECTS",
+    "items": [
+      {
+        "title": "Hyperledger vehicle ownership & depreciation",
+        "period": "Jun 2019 — Apr 2020",
+        "description": "Smart contract network to track vehicle ownership and attach a depreciation index to VIN for automotive security and privacy. Designed as a potential uOttawa course deliverable.",
+        "linkLabel": "Literature review",
+        "url": "Kaustubh-Dutta-Literature-Review.pdf",
+        "secondaryLinkLabel": "Presentation",
+        "secondaryUrl": "Kaustubh-Dutta-Hyperledger-Blockchain-Presentation.pptx",
+        "coverImage": "images/projects/hyperledger-blockchain.svg",
+        "tags": ["Hyperledger", "Blockchain"]
+      },
+      {
+        "title": "Image reconstruction & computed tomography",
+        "period": "Apr 2015 — Mar 2016",
+        "description": "Radon transforms in MATLAB with multi-angle projections and wavelet denoising for improved reconstruction quality.",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/ct-reconstruction.svg",
+        "tags": ["MATLAB", "Signal processing"]
+      },
+      {
+        "title": "Wireless Spybot",
+        "period": "May 2014 — Mar 2015",
+        "description": "ATmega16-based wireless rover with live video feedback for surveillance-style maneuvering.",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/wireless-spybot.svg",
+        "tags": ["Embedded", "ATmega"]
+      },
+      {
+        "title": "Dawn to Dusk automatic lamp",
+        "period": "Apr 2014 — May 2014",
+        "description": "Ambient light sensing to save power by switching illumination only when needed.",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/dawn-dusk-lamp.svg",
+        "tags": ["Hardware", "Sensors"]
+      }
+    ]
+  },
+  "volunteering": {
+    "heading": "VOLUNTEERING",
+    "items": [
+      {
+        "org": "University of Ottawa",
+        "role": "Webmaster",
+        "logo": "images/education/uottawa.svg"
+      },
+      {
+        "org": "Ontario Society of Professional Engineers",
+        "role": "Member",
+        "logo": "images/volunteering/ospe.svg"
+      },
+      {
+        "org": "Canadian Blood Services",
+        "role": "Volunteer",
+        "logo": "images/volunteering/canadian-blood-services.svg"
+      }
+    ]
+  },
+  "publications": {
+    "heading": "Research\nPapers",
+    "referenceLabel": "Publication / publisher",
+    "viewLink": "View Publication",
+    "items": [
+      {
+        "title": "Impacts of Machine Learning and Artificial Intelligence on Mankind",
+        "meta": "IEEE Xplore - DOI: 10.1109/I2C2.2017.8321908 · Mar 22, 2018",
+        "url": "https://ieeexplore.ieee.org/document/8321908/"
+      },
+      {
+        "title": "Blockchain: The Perfect Data Protection Tool",
+        "meta": "IEEE Xplore - DOI: 10.1109/I2C2.2017.8321932 · Mar 22, 2018",
+        "url": "https://ieeexplore.ieee.org/document/8321932/"
+      },
+      {
+        "title": "Li-Fi: A Potential Game Changer in Data Transfer",
+        "meta": "International Journal of Electrical, Electronics and Data Communication (IJEEDC) · Dec 1, 2016",
+        "url": "https://www.iraj.in/journal/journal_file/journal_pdf/1-323-148465514261-65.pdf"
+      },
+      {
+        "title": "Analysis of Channel Capacity using MIMO-OFDM for 4G Applications",
+        "meta": "IJERT - 2016 (Volume 4 - Issue 28) · Mar 1, 2016",
+        "url": "https://www.ijert.org/analysis-of-channel-capacity-using-mimo-ofdm-for-4g-applications"
+      }
+    ]
+  },
+  "chatbot": {
+    "ariaLabel": "Portfolio assistant",
+    "title": "Assistant",
+    "open": "Open assistant",
+    "close": "Close assistant",
+    "placeholder": "Ask about Kaustubh or type a section…",
+    "send": "Send",
+    "emptyPrompt": "Type a question or tap a section chip.",
+    "aboutAnswer": "Kaustubh is a full stack AI application developer and Design Lead based in Ottawa, focused on resilient React front ends and dependable tooling for Nokia NSP. This site expands on his background under About Me.",
+    "linkedinAnswer": "Live LinkedIn scraping isn’t possible from the browser here (technical limits). Open the public profile for the latest: {{url}}\n\nAnswers in this assistant use this portfolio’s content.",
+    "linkedinOpenProfile": "Open live LinkedIn profile: {{url}}",
+    "fallback": "I’m a simple navigator — ask about experience, skills, education, projects, publications, or volunteering.",
+    "trySections": "Tip: use the chips above to jump to a section.",
+    "navigatedHint": "Scrolled that section into view.",
+    "snippetExperience": "Experience spans Nokia (full stack & Design Lead), Capgemini, Jio, and Siemens — details are in Experience.",
+    "snippetSkills": "Languages and frameworks — plus Postman, Jenkins, and Jira — are listed under Skills.",
+    "snippetProjects": "Featured builds include a Hyperledger network project, CT reconstruction, and embedded work.",
+    "snippetEducation": "Master’s (Data Science) at uOttawa, bachelor’s at KIIT, high school at St. Xavier’s Kolkata.",
+    "snippetVolunteering": "Volunteering includes Webmaster work at uOttawa, OSPE, and Canadian Blood Services — see Volunteering.",
+    "snippetPublications": "IEEE and other publications are linked under Publications.",
+    "snippetAiModels": "Composer 2, GPT 5.3 Codex, and Claude Opus 4.7 appear under Models & Assistants in the Professional skillset.",
+    "snippetSupport": "You can leave a thank-you via Buy Me a Coffee under Support.",
+    "snippetGitHub": "Contribution activity is shown in the GitHub section.",
+    "userAskSection": "Open {{section}}",
+    "navigatedTo": "Scrolling to {{section}}.",
+    "openedReadmeTab": "Opened this site’s README on GitHub in a new tab."
+  },
+  "footer": {
+    "line1": "Designed and developed by Kaus",
+    "line2": "Copyright © {{year}} KD",
+    "built": "Built with React, TypeScript and Vite",
+    "email": "kdutta2511@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kaustubh-dutta/",
+    "website": "https://www.kaustubhdutta.com",
+    "github": "https://github.com/kdutta25",
+    "twitter": "https://twitter.com/KaustubhDutta",
+    "instagram": "https://www.instagram.com/kausklicks/",
+    "youtube": "https://www.youtube.com/@KausDiaries",
+    "youtubeAria": "YouTube — KausDiaries"
+  }
+}
