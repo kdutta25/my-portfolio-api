@@ -20,6 +20,7 @@ The server listens on **`http://localhost:3001`** by default. Use **`npm run dev
 | Variable | Default | Purpose |
 |----------|---------|---------|
 | **`PORT`** | `3001` | TCP port for the HTTP server. Override if the port is busy, e.g. `PORT=3002 npm start`. |
+| **`API_BASE_PATH`** | _(empty)_ | If a reverse proxy serves this app under a prefix (e.g. `/api`), set `API_BASE_PATH=/api`. Routes become `{origin}/api/health`, `{origin}/api/v1/fragments/...`. The portfolio must then set **`VITE_CONTENT_API_BASE_URL`** to include that prefix (e.g. `https://www.example.com/api`). |
 | **`SITE_CONTENT_CORS_ORIGINS`** | See below | Comma-separated list of allowed browser **`Origin`** values for CORS. If unset, origins include local Vite and production site hosts. |
 
 **Default CORS origins** (when `SITE_CONTENT_CORS_ORIGINS` is not set):
@@ -29,7 +30,11 @@ The server listens on **`http://localhost:3001`** by default. Use **`npm run dev
 - `https://www.kaustubhdutta.com`
 - `https://kaustubhdutta.com`
 
-Copy **`.env.example`** to `.env` and adjust as needed. The portfolio app should set **`VITE_CONTENT_API_BASE_URL`** to this service’s **origin only** (no path), e.g. `http://localhost:3001`.
+Copy **`.env.example`** to `.env` and adjust as needed. The portfolio app should set **`VITE_CONTENT_API_BASE_URL`** to this service’s **origin** (and path prefix if you use **`API_BASE_PATH`**), e.g. `http://localhost:3001` — **not** the static portfolio origin alone unless `/v1` or `/api` is reverse-proxied to this process.
+
+### If every `GET /v1/...` returns 404 from the browser
+
+The SPA is probably calling **`https://www.kaustubhdutta.com/v1/...`** (or another static host). That site does not run Express. Point **`VITE_CONTENT_API_BASE_URL`** at this API’s public URL and rebuild the portfolio. If the API is only exposed under a path prefix, set **`API_BASE_PATH`** here and the same prefix in **`VITE_CONTENT_API_BASE_URL`**.
 
 ### Port already in use (`EADDRINUSE`)
 
