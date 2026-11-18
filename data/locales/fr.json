@@ -89,16 +89,56 @@
     "sectionHeading": "MODÈLES &\nASSISTANTS",
     "items": [
       {
-        "label": "Composer 2",
-        "image": "images/ai-models/composer-2.svg"
+        "label": "Claude Opus 5.5",
+        "image": "images/ai-models/claude-opus-5-5.svg"
       },
       {
-        "label": "GPT 5.3 Codex",
-        "image": "images/ai-models/gpt-codex.svg"
+        "label": "Claude Sonnet 5.5",
+        "image": "images/ai-models/claude-sonnet-5-5.svg"
       },
       {
-        "label": "Claude Opus 4.7",
-        "image": "images/ai-models/claude-opus.svg"
+        "label": "Claude Haiku 5.5",
+        "image": "images/ai-models/claude-haiku-5-5.svg"
+      },
+      {
+        "label": "Claude Haiku 4.5",
+        "image": "images/ai-models/claude-haiku-4-5.svg"
+      },
+      {
+        "label": "GPT-5.6 Sol",
+        "image": "images/ai-models/gpt-5-6-sol.svg"
+      },
+      {
+        "label": "GPT-5.6 Terra",
+        "image": "images/ai-models/gpt-5-6-terra.svg"
+      },
+      {
+        "label": "GPT-5.6 Luna",
+        "image": "images/ai-models/gpt-5-6-luna.svg"
+      },
+      {
+        "label": "Gemini 4 Carbon",
+        "image": "images/ai-models/gemini-4-carbon.svg"
+      },
+      {
+        "label": "Gemini 4 Hydrogen",
+        "image": "images/ai-models/gemini-4-hydrogen.svg"
+      },
+      {
+        "label": "Gemini 4 Argon",
+        "image": "images/ai-models/gemini-4-argon.svg"
+      },
+      {
+        "label": "Gemini 3.8 Flash",
+        "image": "images/ai-models/gemini-3-8-flash.svg"
+      },
+      {
+        "label": "Muse Wonder",
+        "image": "images/ai-models/muse-wonder.svg"
+      },
+      {
+        "label": "Muse Spark 1.3",
+        "image": "images/ai-models/muse-spark-1-3.svg"
       }
     ]
   },
@@ -382,7 +422,7 @@
     "snippetEducation": "Maîtrise (science des données) à uOttawa, licence au KIIT, secondaire à St. Xavier’s Kolkata.",
     "snippetVolunteering": "Bénévolat : webmaster à uOttawa, OSPE et Société canadienne du sang — voir Bénévolat.",
     "snippetPublications": "Publications IEEE et autres — liens sous Publications.",
-    "snippetAiModels": "Composer 2, GPT 5.3 Codex et Claude Opus 4.7 figurent sous Modèles et assistants dans la section Compétences professionnelles.",
+    "snippetAiModels": "Les modèles Claude (Opus, Sonnet, Haiku), GPT-5.6 (Sol, Terra, Luna), Gemini (4 Carbon, Hydrogen, Argon, 3.8 Flash) et Muse (Wonder, Spark) figurent sous Modèles et assistants dans la section Compétences professionnelles.",
     "snippetSupport": "Un merci possible via Buy Me a Coffee sous Soutien.",
     "snippetGitHub": "L’activité GitHub est sous la section GitHub.",
     "userAskSection": "Ouvrir {{section}}",
