@@ -112,6 +112,7 @@ Returns a **single top-level fragment** from the locale file for one language. T
 | `projects` | Project cards |
 | `volunteering` | Volunteering |
 | `publications` | Publications |
+| `youtube` | YouTube section copy and channel link |
 | `chatbot` | Assistant strings |
 | `footer` | Footer |
 

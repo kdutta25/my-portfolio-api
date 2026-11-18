@@ -15,6 +15,7 @@
     "readme": "README",
     "volunteering": "Bénévolat",
     "publications": "Publications",
+    "youtube": "YouTube",
     "support": "Soutien",
     "resume": "CV",
     "toggleTheme": "Changer le thème",
@@ -141,6 +142,13 @@
         "image": "images/ai-models/muse-spark-1-3.svg"
       }
     ]
+  },
+  "youtube": {
+    "sectionEyebrow": "YouTube",
+    "sectionHeading": "MA\nCHAÎNE",
+    "lead": "Carnets de voyage, moments du quotidien et petites histoires de la vie au Canada et ailleurs, sur KausDiaries.",
+    "cta": "S'abonner",
+    "channelUrl": "https://www.youtube.com/@KausDiaries"
   },
   "support": {
     "eyebrow": "Soutien",
