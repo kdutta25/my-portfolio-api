@@ -35,6 +35,7 @@ const FRAGMENTS = new Set([
   "projects",
   "volunteering",
   "publications",
+  "youtube",
   "chatbot",
   "footer",
 ]);
