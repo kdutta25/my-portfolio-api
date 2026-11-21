@@ -73,11 +73,11 @@ curl -s http://localhost:3001/health
 
 ### `GET /v1/site-content`
 
-Returns the **full** site payload in one response: résumé corpus, LinkedIn snapshot, and **entire** English and French locale trees. Useful for tooling, refreshing test fixtures, or legacy clients.
+Returns the **full** site payload in one response: résumé corpus, LinkedIn snapshot, and **entire** English, French, Hindi and Bengali locale trees. Useful for tooling, refreshing test fixtures, or legacy clients.
 
 | | |
 |--|--|
-| **Response** | `{ "resumeCorpus": { "resumeText": "..." }, "linkedinSnapshot": { ... }, "locales": { "en": { ... }, "fr": { ... } } }` |
+| **Response** | `{ "resumeCorpus": { "resumeText": "..." }, "linkedinSnapshot": { ... }, "locales": { "en": { ... }, "fr": { ... }, "hi": { ... }, "bn": { ... } } }` |
 | **Errors** | **`500`** `{ "error": "Failed to read site content files" }` if any backing file is missing or unreadable. |
 
 ```bash
@@ -92,7 +92,7 @@ Returns a **single top-level fragment** from the locale file for one language. T
 
 | Path parameter | Allowed values |
 |----------------|----------------|
-| **`lng`** | `en` or `fr` (other values → **`400`** `{ "error": "Invalid language" }`). |
+| **`lng`** | `en`, `fr`, `hi` or `bn` (other values → **`400`** `{ "error": "Invalid language" }`). |
 | **`fragment`** | One of the keys below. Unknown key → **`404`** `{ "error": "Unknown fragment" }`. If the key is allowed but missing from the JSON file → **`404`** `{ "error": "Missing fragment in locale file" }`. |
 
 **Allowed `fragment` values** (must exist under `data/locales/{lng}.json`):
@@ -164,6 +164,8 @@ curl -s http://localhost:3001/v1/knowledge/linkedin
 |------|------|
 | `data/locales/en.json` | English bundle; top-level keys must include every **fragment** name you expose. |
 | `data/locales/fr.json` | French bundle; same key structure as `en.json`. |
+| `data/locales/hi.json` | Hindi bundle; same key structure as `en.json`. Company, school and product names, tech stacks and URLs stay in English. |
+| `data/locales/bn.json` | Bengali bundle; same rules as `hi.json`. |
 | `data/resume-corpus.json` | Plain résumé text for chat / `site-content`. |
 | `data/linkedin-snapshot.json` | Short LinkedIn summary for chat / `site-content`. |
 

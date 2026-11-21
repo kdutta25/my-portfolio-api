@@ -1,0 +1,453 @@
+{
+  "site": {
+    "title": "Kaus Dutta",
+    "description": "কানাডার অটোয়ায় Nokia-তে ফুল স্ট্যাক AI অ্যাপ্লিকেশন ডেভেলপার ও ডিজাইন লিড। University of Ottawa থেকে ডেটা সায়েন্সে মাস্টার্স।",
+    "keywords": "Kaustubh Dutta, কৌস্তুভ দত্ত, ফুল স্ট্যাক ডেভেলপার, React, TypeScript, Nokia, Ottawa, ডেটা সায়েন্স"
+  },
+  "nav": {
+    "skip": "মূল বিষয়বস্তুতে যান",
+    "about": "আমার সম্পর্কে",
+    "experience": "অভিজ্ঞতা",
+    "education": "শিক্ষা",
+    "projects": "প্রজেক্ট",
+    "skills": "দক্ষতা",
+    "github": "GitHub",
+    "readme": "README",
+    "volunteering": "স্বেচ্ছাসেবা",
+    "publications": "প্রকাশনা",
+    "youtube": "YouTube",
+    "support": "সহায়তা",
+    "resume": "রেজিউমে",
+    "toggleTheme": "রঙের থিম বদলান",
+    "toggleLanguage": "ভাষা বদলান",
+    "lightMode": "লাইট",
+    "darkMode": "ডার্ক",
+    "brand": "Kaustubh Dutta"
+  },
+  "hero": {
+    "introEyebrow": "Kaustubh Dutta",
+    "headline": "ফুল স্ট্যাক\nডেভেলপার",
+    "tagline": "প্রযুক্তি যেভাবে বিকশিত হচ্ছে এবং মানবজাতি ধীরে ধীরে জ্ঞানের এক অসীম স্বর্গের দিকে এগিয়ে চলেছে, তা আমাকে সত্যিই মুগ্ধ করে। মহাবিশ্বের অজানা অঞ্চলে পৌঁছানোর তৃষ্ণা হোক, সৌরঝড় বোঝার জন্য অনন্য প্রযুক্তি তৈরি করা হোক, কিংবা এই পৃথিবীতেই কোয়ান্টাম কম্পিউটার গড়ে তোলা — আমার কাছে এটাই মানবজাতির স্বতন্ত্র বৈশিষ্ট্য, যা সত্যিই অনুপ্রেরণাদায়ক এবং এই পৃথিবীতে আমাদের আলাদা করে তোলে।",
+    "roleLine": "ফুল স্ট্যাক AI অ্যাপ্লিকেশন ডেভেলপার · ডিজাইন লিড",
+    "techStrip": "React · TypeScript · Webpack · Cypress · JEST · Open Street Map · AG Grid · Module Federation",
+    "location": "অটোয়া, ON, কানাডা",
+    "ctaPrimary": "কাজ দেখুন",
+    "ctaSecondary": "যোগাযোগ",
+    "photoAlt": "Kaustubh Dutta-র প্রতিকৃতি",
+    "badge": "মাস্টার্স · University of Ottawa · Nokia",
+    "stats": [
+      { "value": "+10", "line1": "বছর", "line2": "ইঞ্জিনিয়ারিংয়ে" },
+      { "value": "+4", "line1": "বাছাই করা", "line2": "প্রজেক্ট" },
+      { "value": "+15", "line1": "বছর", "line2": "টেক ও কোডে" }
+    ]
+  },
+  "about": {
+    "heading": "আমার\nসম্পর্কে",
+    "intro": "একজন সফটওয়্যার ইঞ্জিনিয়ার হিসেবে, প্রযুক্তি কীভাবে বিকশিত হয় এবং মহাবিশ্ব অন্বেষণ থেকে কোয়ান্টাম কম্পিউটিংয়ের মতো যুগান্তকারী সাফল্য পর্যন্ত মানবজাতি কীভাবে জ্ঞানের ক্রমপ্রসারমান দিগন্তের দিকে এগিয়ে চলে, তা আমাকে মুগ্ধ করে।",
+    "interestsLabel": "প্রধান আগ্রহ",
+    "interests": "প্রোডাক্ট ডিজাইন · নারী কল্যাণ · ভূরাজনীতি · শিক্ষা · প্রযুক্তি · ব্যষ্টিক ও সামষ্টিক অর্থনীতি · পরিবেশ",
+    "mottoLabel": "আমার মূলমন্ত্র",
+    "motto": "এমন একটি ভাবনার কথা ভাবো, যা পৃথিবী এখনও ভাবেনি।",
+    "activitiesIntro": "কোডিং ছাড়াও আরও কিছু কাজ, যা করতে আমি ভালোবাসি!",
+    "activities": ["সাঁতার", "পিকলবল", "পিং পং", "ফটোগ্রাফি"],
+    "connectLabel": "যুক্ত হন",
+    "connectAria": "YouTube, Instagram এবং LinkedIn",
+    "youtubeUrl": "https://www.youtube.com/@KausDiaries",
+    "instagramUrl": "https://www.instagram.com/kaustubh_dutta/",
+    "linkedinUrl": "https://www.linkedin.com/in/kaustubh-dutta/",
+    "youtubeAria": "YouTube — KausDiaries",
+    "instagramAria": "Instagram — @kaustubh_dutta",
+    "linkedinAria": "LinkedIn প্রোফাইল"
+  },
+  "skills": {
+    "sectionEyebrow": "সক্ষমতা",
+    "sectionHeading": "পেশাদার\nদক্ষতা",
+    "skillLabels": {
+      "javascript": "JavaScript",
+      "cpp": "C++",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "react": "React",
+      "htmlCss": "HTML & CSS",
+      "mongodb": "MongoDB",
+      "git": "Git",
+      "mysql": "MySQL",
+      "python": "Python",
+      "java": "Java"
+    },
+    "toolLabels": {
+      "postman": "Postman",
+      "jenkins": "Jenkins",
+      "jira": "Jira",
+      "webpack": "Webpack",
+      "vite": "Vite",
+      "podman": "Podman",
+      "jfrog": "JFrog"
+    }
+  },
+  "aiModels": {
+    "sectionEyebrow": "AI",
+    "sectionHeading": "মডেল ও\nঅ্যাসিস্ট্যান্ট",
+    "items": [
+      {
+        "label": "Claude Opus 5.5",
+        "image": "images/ai-models/claude-opus-5-5.svg"
+      },
+      {
+        "label": "Claude Sonnet 5.5",
+        "image": "images/ai-models/claude-sonnet-5-5.svg"
+      },
+      {
+        "label": "Claude Haiku 5.5",
+        "image": "images/ai-models/claude-haiku-5-5.svg"
+      },
+      {
+        "label": "Claude Haiku 4.5",
+        "image": "images/ai-models/claude-haiku-4-5.svg"
+      },
+      {
+        "label": "GPT-5.6 Sol",
+        "image": "images/ai-models/gpt-5-6-sol.svg"
+      },
+      {
+        "label": "GPT-5.6 Terra",
+        "image": "images/ai-models/gpt-5-6-terra.svg"
+      },
+      {
+        "label": "GPT-5.6 Luna",
+        "image": "images/ai-models/gpt-5-6-luna.svg"
+      },
+      {
+        "label": "Gemini 4 Carbon",
+        "image": "images/ai-models/gemini-4-carbon.svg"
+      },
+      {
+        "label": "Gemini 4 Hydrogen",
+        "image": "images/ai-models/gemini-4-hydrogen.svg"
+      },
+      {
+        "label": "Gemini 4 Argon",
+        "image": "images/ai-models/gemini-4-argon.svg"
+      },
+      {
+        "label": "Gemini 3.8 Flash",
+        "image": "images/ai-models/gemini-3-8-flash.svg"
+      },
+      {
+        "label": "Muse Wonder",
+        "image": "images/ai-models/muse-wonder.svg"
+      },
+      {
+        "label": "Muse Spark 1.3",
+        "image": "images/ai-models/muse-spark-1-3.svg"
+      }
+    ]
+  },
+  "youtube": {
+    "sectionEyebrow": "YouTube",
+    "sectionHeading": "আমার\nচ্যানেল",
+    "lead": "KausDiaries-এ কানাডা ও তার বাইরের জীবন থেকে ভ্রমণের ডায়েরি, রোজকার মুহূর্ত আর ছোট ছোট গল্প।",
+    "cta": "সাবস্ক্রাইব করুন",
+    "channelUrl": "https://www.youtube.com/@KausDiaries"
+  },
+  "support": {
+    "eyebrow": "সহায়তা",
+    "heading": "আমাকে এক কাপ\nকফি খাওয়ান",
+    "lead": "এই পোর্টফোলিও বা আমার কাজ যদি আপনার কাজে লেগে থাকে, তাহলে ছোট্ট একটা ধন্যবাদ জানাতে পারেন — এতে সাইড প্রজেক্ট আর ওপেন-সোর্স পরীক্ষানিরীক্ষা চালিয়ে যাওয়া সম্ভব হয়।",
+    "cta": "আমাকে এক কাপ কফি খাওয়ান",
+    "url": "https://buymeacoffee.com/kaustubhdutta"
+  },
+  "githubActivity": {
+    "heading": "GITHUB\nকার্যকলাপ",
+    "subtitle": "গত এক বছরের অবদানের ছন্দ।",
+    "profileLink": "GitHub-এ {{user}}",
+    "username": "kdutta25"
+  },
+  "experience": {
+    "heading": "বছরের\nঅভিজ্ঞতা",
+    "companies": [
+      {
+        "id": "nokia",
+        "name": "Nokia",
+        "logo": "images/companies/nokia.svg",
+        "roles": [
+          {
+            "title": "ফুল স্ট্যাক AI অ্যাপ্লিকেশন ডেভেলপার II ও প্রজেক্ট ডিজাইন লিড",
+            "period": "ফেব্রু. 2024 — বর্তমান",
+            "location": "অটোয়া, কানাডা",
+            "bullets": [
+              "Nokia-র NSP প্রোডাক্টের User Manager, Group Manager ও License Manager ওয়েব অ্যাপ্লিকেশন মডিউলের টিম লিড।",
+              "PLM ও UX-এর পরিকল্পিত নতুন ফিচারের ভিত্তিতে এপিক ও স্টোরি নির্ধারণে গুরুত্বপূর্ণ ভূমিকা।",
+              "ফ্রন্ট-এন্ড ডিজাইন আর্কিটেকচারের নেতৃত্ব এবং প্রতিটি স্প্রিন্টের জন্য টিমের সক্ষমতা নির্ধারণ।"
+            ],
+            "stack": "Release Measurement · React 18 · Module Federation · TypeScript · Webpack 5 · Cypress · Regex · OpenStreetMap · AG Grid · Highcharts · D3 · Formik · Lodash · Popper · CodeMirror"
+          },
+          {
+            "title": "ফুল স্ট্যাক AI অ্যাপ্লিকেশন ডেভেলপার II",
+            "period": "অক্টো. 2021 — ফেব্রু. 2024",
+            "location": "অটোয়া, কানাডা",
+            "bullets": [
+              "Module Federation ব্যবহার করে Nokia-র NSP ফ্রন্ট এন্ড তৈরি — webpack 5-এর একটি প্রধান ফিচার, যা ডিপ্লয়যোগ্য মডিউল (মাইক্রো-ফ্রন্টএন্ড) প্রয়োজনমতো অন-ডিমান্ড লোড করতে দেয়।",
+              "User Manager মডিউল তৈরিতে টিম লিড।"
+            ],
+            "stack": "React 18 · Module Federation · TypeScript · Webpack 5 · JUnit · Regex · OpenStreetMap · AG Grid · Highcharts · D3"
+          },
+          {
+            "title": "অ্যাপ্লিকেশন ডেভেলপার",
+            "period": "মে 2020 — অক্টো. 2021",
+            "location": "অটোয়া, কানাডা",
+            "bullets": [
+              "Nokia-র NSP প্রোডাক্টের সংশ্লিষ্ট লাইব্রেরিতে পুনর্ব্যবহারযোগ্য React কোর কম্পোনেন্ট তৈরির টিম লিড।",
+              "লাইব্রেরি ভার্সনিং — সিমান্টিক।"
+            ],
+            "stack": "React 16 · JavaScript · CSS Flex · AG Grid · Highcharts · Regex"
+          },
+          {
+            "title": "সফটওয়্যার ডেভেলপার ও ডেটা সায়েন্টিস্ট — ইন্টার্ন",
+            "period": "জানু. 2020 — এপ্রি. 2020",
+            "location": "অটোয়া, কানাডা",
+            "bullets": [
+              "সফটওয়্যার ডেভেলপমেন্ট টিমগুলোর কাজ ট্র্যাক করতে ও তা থেকে অন্তর্দৃষ্টি পেতে স্বয়ংক্রিয় Power BI রিপোর্ট তৈরি।",
+              "Nokia Software (NSW) বিজনেস গ্রুপের জন্য আগত JIRA ত্রুটি ও লক্ষ্য সমাধান-দিবস ট্র্যাক করতে DAX ও Power Query দিয়ে সার্ভিস লেভেল এগ্রিমেন্ট বিশ্লেষণ।"
+            ],
+            "stack": "Perl · Cron · MariaDB · DAX · Power BI Service"
+          },
+          {
+            "title": "সফটওয়্যার ডেভেলপার ও ডেটা সায়েন্টিস্ট — CO-OP",
+            "period": "এপ্রি. 2019 — ডিসে. 2019",
+            "location": "অটোয়া, কানাডা",
+            "bullets": [
+              "KPI গণনা এবং PMO অফিসকে অন্তর্দৃষ্টি দিতে সহায়তা।",
+              "VBA ম্যাক্রো, পিভট টেবিল, অ্যাডভান্সড Excel, Power Query।"
+            ],
+            "stack": "VBA · পিভট টেবিল · Excel · Power Query"
+          }
+        ]
+      },
+      {
+        "id": "capgemini",
+        "name": "Capgemini Technology Services",
+        "logo": "images/companies/capgemini.svg",
+        "roles": [
+          {
+            "title": "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার",
+            "period": "জুলাই 2017 — জুন 2018",
+            "location": "ভারত",
+            "bullets": [
+              "Angular ও TypeScript দিয়ে এন্টারপ্রাইজ SPA ডেলিভারি।",
+              "Willis Insurance ও সংশ্লিষ্ট ক্লায়েন্ট প্রজেক্টে UX টিমের সঙ্গে সহযোগিতা।"
+            ],
+            "stack": "Angular · TypeScript"
+          },
+          {
+            "title": "সফটওয়্যার ইঞ্জিনিয়ার",
+            "period": "মে 2016 — জুন 2017",
+            "location": "ভারত",
+            "bullets": [
+              "UX ওয়্যারফ্রেম তৈরি।",
+              "Willis Insurance-এর জন্য UI ডিজাইন — AngularJS-এ সিঙ্গল পেজ অ্যাপ্লিকেশন।",
+              "Angular ও JavaScript-সহ Marvel-এ UX ওয়্যারফ্রেম।"
+            ],
+            "stack": "AngularJS · JavaScript"
+          }
+        ]
+      },
+      {
+        "id": "jio",
+        "name": "Reliance Jio",
+        "logo": "images/companies/jio.svg",
+        "roles": [
+          {
+            "title": "সফটওয়্যার ইঞ্জিনিয়ার ইন্টার্ন — নেটওয়ার্ক অটোমেশন (LTE)",
+            "period": "মে 2015 — জুন 2015",
+            "location": "ভারত",
+            "bullets": [
+              "LTE নেটওয়ার্ক আর্কিটেকচার।",
+              "স্মল সেল পরিকল্পনা।",
+              "OFDM ডাউনলিংক ও SC-FDMA আপলিংক।",
+              "LTE চ্যানেলের ক্ষমতা।",
+              "পরিষেবার গুণমান (QoS)।",
+              "সফট / হার্ড হ্যান্ডঅফের আর্কিটেকচার।"
+            ],
+            "stack": "LTE · OFDM · SC-FDMA · QoS · হ্যান্ডঅফ ডিজাইন"
+          }
+        ]
+      },
+      {
+        "id": "siemens",
+        "name": "Siemens Networks",
+        "logo": "images/companies/siemens.svg",
+        "roles": [
+          {
+            "title": "সফটওয়্যার ইঞ্জিনিয়ার ইন্টার্ন — নেটওয়ার্ক অটোমেশন",
+            "period": "মে 2014 — জুলাই 2014",
+            "location": "ভারত",
+            "bullets": [
+              "সফটস্টার্টার, এবং ABB Prosoft দিয়ে 110, 160 ও 220 kW মোটরের টর্ক-স্পিড ও স্পিড-কারেন্ট বক্ররেখা প্লট ও বিশ্লেষণ।",
+              "SIMOCODE ব্যবহার করে SIEMENS SIMARIS বক্ররেখা ও ট্রিপিং বৈশিষ্ট্য — একটি গতিশীল ও শক্তিশালী স্মার্ট মোটর ম্যানেজমেন্ট সিস্টেম।",
+              "অত্যাবশ্যক লোডে জরুরি বিদ্যুৎ সরবরাহের হিসাবের জন্য ডিজেল জেনারেটরের মাপ নির্ধারণ।",
+              "ক্যাপাসিটর ব্যাংক ব্যবহার করে AC সার্কিটে ভোল্টেজ ও কারেন্টের ফেজ পার্থক্য কমাতে ফেজ সংশোধনের হিসাব।"
+            ],
+            "stack": "SIMARIS · SIMOCODE · মোটর বিশ্লেষণ · DG মাপ নির্ধারণ · ক্যাপাসিটর ব্যাংক"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "heading": "শিক্ষা",
+    "items": [
+      {
+        "school": "University of Ottawa",
+        "degree": "মাস্টার্স, ডেটা সায়েন্স (কম্পিউটার সায়েন্স ও বিজনেস টেকনোলজি)",
+        "period": "2018 — 2020",
+        "detail": "গ্রেড A · পাঠ্যক্রমে সফটওয়্যার ডেভেলপমেন্ট (React, Angular, Java, SQL), ডেটা অ্যানালিটিক্স, মেশিন লার্নিং, BI ও অপারেশনাল এক্সিলেন্স অন্তর্ভুক্ত।",
+        "logo": "images/education/uottawa.svg"
+      },
+      {
+        "school": "KIIT — Kalinga Institute of Industrial Technology",
+        "degree": "ব্যাচেলর্স, ইলেকট্রনিক্স ও টেলিকমিউনিকেশন · মাইক্রো-কন্ট্রোলার সফটওয়্যার",
+        "period": "2012 — 2016",
+        "detail": "প্রজেক্ট: কম্পিউটেড টোমোগ্রাফি ইমেজ পুনর্গঠন, ডন-টু-ডাস্ক ল্যাম্প, ওয়্যারলেস স্পাইবট। সোসাইটি: রোবোটিক সোসাইটি, সোশ্যাল রেসপনসিবিলিটি সেল।",
+        "logo": "images/education/kiit.svg"
+      },
+      {
+        "school": "St. Xavier's Collegiate School Kolkata",
+        "degree": "হাই স্কুল",
+        "period": "2000 — 2012",
+        "detail": "",
+        "logo": "images/education/sxcal.png"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "সাম্প্রতিক\nপ্রজেক্ট",
+    "items": [
+      {
+        "title": "Hyperledger গাড়ির মালিকানা ও অবচয়",
+        "period": "জুন 2019 — এপ্রি. 2020",
+        "description": "গাড়ির মালিকানা ট্র্যাক করতে এবং অটোমোটিভ নিরাপত্তা ও গোপনীয়তার জন্য VIN-এর সঙ্গে অবচয় সূচক যুক্ত করার স্মার্ট কন্ট্র্যাক্ট নেটওয়ার্ক। uOttawa-র একটি সম্ভাব্য কোর্স অ্যাসাইনমেন্ট হিসেবে পরিকল্পিত।",
+        "linkLabel": "সাহিত্য পর্যালোচনা",
+        "url": "Kaustubh-Dutta-Literature-Review.pdf",
+        "secondaryLinkLabel": "উপস্থাপনা",
+        "secondaryUrl": "Kaustubh-Dutta-Hyperledger-Blockchain-Presentation.pptx",
+        "coverImage": "images/projects/hyperledger-blockchain.svg",
+        "tags": ["Hyperledger", "ব্লকচেইন"]
+      },
+      {
+        "title": "ইমেজ পুনর্গঠন ও কম্পিউটেড টোমোগ্রাফি",
+        "period": "এপ্রি. 2015 — মার্চ 2016",
+        "description": "উন্নত পুনর্গঠন মানের জন্য MATLAB-এ বহু-কোণীয় প্রজেকশন ও ওয়েভলেট ডিনয়েজিং-সহ রেডন ট্রান্সফর্ম।",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/ct-reconstruction.svg",
+        "tags": ["MATLAB", "সিগন্যাল প্রসেসিং"]
+      },
+      {
+        "title": "ওয়্যারলেস স্পাইবট",
+        "period": "মে 2014 — মার্চ 2015",
+        "description": "নজরদারির মতো চলাচলের জন্য লাইভ ভিডিও ফিডব্যাক-সহ ATmega16-ভিত্তিক ওয়্যারলেস রোভার।",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/wireless-spybot.svg",
+        "tags": ["এমবেডেড", "ATmega"]
+      },
+      {
+        "title": "ডন-টু-ডাস্ক স্বয়ংক্রিয় ল্যাম্প",
+        "period": "এপ্রি. 2014 — মে 2014",
+        "description": "চারপাশের আলো শনাক্ত করে কেবল প্রয়োজনের সময় বাতি জ্বালিয়ে বিদ্যুৎ সাশ্রয়।",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/dawn-dusk-lamp.svg",
+        "tags": ["হার্ডওয়্যার", "সেন্সর"]
+      }
+    ]
+  },
+  "volunteering": {
+    "heading": "স্বেচ্ছাসেবা",
+    "items": [
+      {
+        "org": "University of Ottawa",
+        "role": "ওয়েবমাস্টার",
+        "logo": "images/education/uottawa.svg"
+      },
+      {
+        "org": "Ontario Society of Professional Engineers",
+        "role": "সদস্য",
+        "logo": "images/volunteering/ospe.svg"
+      },
+      {
+        "org": "Canadian Blood Services",
+        "role": "স্বেচ্ছাসেবক",
+        "logo": "images/volunteering/canadian-blood-services.svg"
+      }
+    ]
+  },
+  "publications": {
+    "heading": "গবেষণা\nপত্র",
+    "referenceLabel": "প্রকাশনা / প্রকাশক",
+    "viewLink": "প্রকাশনা দেখুন",
+    "items": [
+      {
+        "title": "মানবজাতির ওপর মেশিন লার্নিং ও আর্টিফিশিয়াল ইন্টেলিজেন্সের প্রভাব",
+        "meta": "IEEE Xplore - DOI: 10.1109/I2C2.2017.8321908 · 22 মার্চ 2018",
+        "url": "https://ieeexplore.ieee.org/document/8321908/"
+      },
+      {
+        "title": "ব্লকচেইন: ডেটা সুরক্ষার আদর্শ হাতিয়ার",
+        "meta": "IEEE Xplore - DOI: 10.1109/I2C2.2017.8321932 · 22 মার্চ 2018",
+        "url": "https://ieeexplore.ieee.org/document/8321932/"
+      },
+      {
+        "title": "Li-Fi: ডেটা স্থানান্তরে এক সম্ভাব্য গেম চেঞ্জার",
+        "meta": "International Journal of Electrical, Electronics and Data Communication (IJEEDC) · 1 ডিসে. 2016",
+        "url": "https://www.iraj.in/journal/journal_file/journal_pdf/1-323-148465514261-65.pdf"
+      },
+      {
+        "title": "4G অ্যাপ্লিকেশনের জন্য MIMO-OFDM ব্যবহার করে চ্যানেলের ক্ষমতা বিশ্লেষণ",
+        "meta": "IJERT - 2016 (Volume 4 - Issue 28) · 1 মার্চ 2016",
+        "url": "https://www.ijert.org/analysis-of-channel-capacity-using-mimo-ofdm-for-4g-applications"
+      }
+    ]
+  },
+  "chatbot": {
+    "ariaLabel": "Portfolio assistant",
+    "title": "Assistant",
+    "open": "Open assistant",
+    "close": "Close assistant",
+    "placeholder": "Ask about Kaustubh or type a section…",
+    "send": "Send",
+    "emptyPrompt": "Type a question or tap a section chip.",
+    "aboutAnswer": "Kaustubh is a full stack AI application developer and Design Lead based in Ottawa, focused on resilient React front ends and dependable tooling for Nokia NSP. This site expands on his background under About Me.",
+    "linkedinAnswer": "Live LinkedIn scraping isn’t possible from the browser here (technical limits). Open the public profile for the latest: {{url}}\n\nAnswers in this assistant use this portfolio’s content.",
+    "linkedinOpenProfile": "Open live LinkedIn profile: {{url}}",
+    "fallback": "I’m a simple navigator — ask about experience, skills, education, projects, publications, or volunteering.",
+    "trySections": "Tip: use the chips above to jump to a section.",
+    "navigatedHint": "Scrolled that section into view.",
+    "snippetExperience": "Experience spans Nokia (full stack & Design Lead), Capgemini, Jio, and Siemens — details are in Experience.",
+    "snippetSkills": "Languages and frameworks — plus Postman, Jenkins, and Jira — are listed under Skills.",
+    "snippetProjects": "Featured builds include a Hyperledger network project, CT reconstruction, and embedded work.",
+    "snippetEducation": "Master’s (Data Science) at uOttawa, bachelor’s at KIIT, high school at St. Xavier’s Kolkata.",
+    "snippetVolunteering": "Volunteering includes Webmaster work at uOttawa, OSPE, and Canadian Blood Services — see Volunteering.",
+    "snippetPublications": "IEEE and other publications are linked under Publications.",
+    "snippetAiModels": "Claude (Opus, Sonnet, Haiku), GPT-5.6 (Sol, Terra, Luna), Gemini (4 Carbon, Hydrogen, Argon, 3.8 Flash) and Muse (Wonder, Spark) models appear under Models & Assistants in the Professional skillset.",
+    "snippetSupport": "You can leave a thank-you via Buy Me a Coffee under Support.",
+    "snippetGitHub": "Contribution activity is shown in the GitHub section.",
+    "userAskSection": "Open {{section}}",
+    "navigatedTo": "Scrolling to {{section}}.",
+    "openedReadmeTab": "Opened this site’s README on GitHub in a new tab."
+  },
+  "footer": {
+    "line1": "Kaus-এর ডিজাইন ও তৈরি",
+    "line2": "কপিরাইট © {{year}} KD",
+    "built": "React, TypeScript ও Vite দিয়ে তৈরি",
+    "email": "kdutta2511@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kaustubh-dutta/",
+    "website": "https://www.kaustubhdutta.com",
+    "github": "https://github.com/kdutta25",
+    "twitter": "https://twitter.com/KaustubhDutta",
+    "instagram": "https://www.instagram.com/kausklicks/",
+    "youtube": "https://www.youtube.com/@KausDiaries",
+    "youtubeAria": "YouTube — KausDiaries"
+  }
+}

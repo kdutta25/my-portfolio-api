@@ -1,0 +1,453 @@
+{
+  "site": {
+    "title": "Kaus Dutta",
+    "description": "ओटावा, कनाडा में Nokia में फुल स्टैक AI एप्लिकेशन डेवलपर और डिज़ाइन लीड। University of Ottawa से डेटा साइंस में मास्टर्स।",
+    "keywords": "Kaustubh Dutta, कौस्तुभ दत्ता, फुल स्टैक डेवलपर, React, TypeScript, Nokia, Ottawa, डेटा साइंस"
+  },
+  "nav": {
+    "skip": "मुख्य सामग्री पर जाएँ",
+    "about": "मेरे बारे में",
+    "experience": "अनुभव",
+    "education": "शिक्षा",
+    "projects": "प्रोजेक्ट्स",
+    "skills": "कौशल",
+    "github": "GitHub",
+    "readme": "README",
+    "volunteering": "स्वयंसेवा",
+    "publications": "प्रकाशन",
+    "youtube": "YouTube",
+    "support": "सहयोग",
+    "resume": "रिज़्यूमे",
+    "toggleTheme": "रंग थीम बदलें",
+    "toggleLanguage": "भाषा बदलें",
+    "lightMode": "लाइट",
+    "darkMode": "डार्क",
+    "brand": "Kaustubh Dutta"
+  },
+  "hero": {
+    "introEyebrow": "Kaustubh Dutta",
+    "headline": "फुल स्टैक\nडेवलपर",
+    "tagline": "तकनीक जिस तरह विकसित हो रही है और मानव जाति धीरे-धीरे ज्ञान के एक अनंत स्वर्ग की ओर बढ़ रही है, वह मुझे सचमुच मोहित करता है। चाहे ब्रह्मांड के अनछुए क्षेत्रों तक पहुँचने की प्यास हो, सौर ज्वालाओं को समझने के लिए कोई उत्कृष्ट तकनीक विकसित करना हो, या इसी धरती पर क्वांटम कंप्यूटर बनाना हो — मेरे लिए यही मानव जाति की विशिष्ट पहचान है, जो सचमुच प्रेरणादायक है और हमें इस दुनिया में अलग बनाती है।",
+    "roleLine": "फुल स्टैक AI एप्लिकेशन डेवलपर · डिज़ाइन लीड",
+    "techStrip": "React · TypeScript · Webpack · Cypress · JEST · Open Street Map · AG Grid · Module Federation",
+    "location": "ओटावा, ON, कनाडा",
+    "ctaPrimary": "काम देखें",
+    "ctaSecondary": "संपर्क करें",
+    "photoAlt": "Kaustubh Dutta का चित्र",
+    "badge": "मास्टर्स · University of Ottawa · Nokia",
+    "stats": [
+      { "value": "+10", "line1": "वर्ष", "line2": "इंजीनियरिंग में" },
+      { "value": "+4", "line1": "चुनिंदा", "line2": "प्रोजेक्ट्स" },
+      { "value": "+15", "line1": "वर्ष", "line2": "टेक और कोड में" }
+    ]
+  },
+  "about": {
+    "heading": "मेरे\nबारे में",
+    "intro": "एक सॉफ़्टवेयर इंजीनियर के रूप में, मैं इस बात से मोहित हूँ कि तकनीक कैसे विकसित होती है और मानवता ब्रह्मांड की खोज से लेकर क्वांटम कंप्यूटिंग जैसी उपलब्धियों तक, ज्ञान के निरंतर फैलते क्षितिज की ओर कैसे बढ़ती है।",
+    "interestsLabel": "मुख्य रुचियाँ",
+    "interests": "प्रोडक्ट डिज़ाइन · महिला कल्याण · भू-राजनीति · शिक्षा · तकनीक · सूक्ष्म और समष्टि अर्थशास्त्र · पर्यावरण",
+    "mottoLabel": "मेरा आदर्श वाक्य",
+    "motto": "एक ऐसे विचार के बारे में सोचो, जिसके बारे में दुनिया ने अभी तक नहीं सोचा।",
+    "activitiesIntro": "कोडिंग के अलावा, कुछ और गतिविधियाँ जो मुझे बेहद पसंद हैं!",
+    "activities": ["तैराकी", "पिकलबॉल", "पिंग पोंग", "फ़ोटोग्राफ़ी"],
+    "connectLabel": "जुड़ें",
+    "connectAria": "YouTube, Instagram और LinkedIn",
+    "youtubeUrl": "https://www.youtube.com/@KausDiaries",
+    "instagramUrl": "https://www.instagram.com/kaustubh_dutta/",
+    "linkedinUrl": "https://www.linkedin.com/in/kaustubh-dutta/",
+    "youtubeAria": "YouTube — KausDiaries",
+    "instagramAria": "Instagram — @kaustubh_dutta",
+    "linkedinAria": "LinkedIn प्रोफ़ाइल"
+  },
+  "skills": {
+    "sectionEyebrow": "क्षमताएँ",
+    "sectionHeading": "पेशेवर\nकौशल",
+    "skillLabels": {
+      "javascript": "JavaScript",
+      "cpp": "C++",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "react": "React",
+      "htmlCss": "HTML & CSS",
+      "mongodb": "MongoDB",
+      "git": "Git",
+      "mysql": "MySQL",
+      "python": "Python",
+      "java": "Java"
+    },
+    "toolLabels": {
+      "postman": "Postman",
+      "jenkins": "Jenkins",
+      "jira": "Jira",
+      "webpack": "Webpack",
+      "vite": "Vite",
+      "podman": "Podman",
+      "jfrog": "JFrog"
+    }
+  },
+  "aiModels": {
+    "sectionEyebrow": "AI",
+    "sectionHeading": "मॉडल और\nअसिस्टेंट",
+    "items": [
+      {
+        "label": "Claude Opus 5.5",
+        "image": "images/ai-models/claude-opus-5-5.svg"
+      },
+      {
+        "label": "Claude Sonnet 5.5",
+        "image": "images/ai-models/claude-sonnet-5-5.svg"
+      },
+      {
+        "label": "Claude Haiku 5.5",
+        "image": "images/ai-models/claude-haiku-5-5.svg"
+      },
+      {
+        "label": "Claude Haiku 4.5",
+        "image": "images/ai-models/claude-haiku-4-5.svg"
+      },
+      {
+        "label": "GPT-5.6 Sol",
+        "image": "images/ai-models/gpt-5-6-sol.svg"
+      },
+      {
+        "label": "GPT-5.6 Terra",
+        "image": "images/ai-models/gpt-5-6-terra.svg"
+      },
+      {
+        "label": "GPT-5.6 Luna",
+        "image": "images/ai-models/gpt-5-6-luna.svg"
+      },
+      {
+        "label": "Gemini 4 Carbon",
+        "image": "images/ai-models/gemini-4-carbon.svg"
+      },
+      {
+        "label": "Gemini 4 Hydrogen",
+        "image": "images/ai-models/gemini-4-hydrogen.svg"
+      },
+      {
+        "label": "Gemini 4 Argon",
+        "image": "images/ai-models/gemini-4-argon.svg"
+      },
+      {
+        "label": "Gemini 3.8 Flash",
+        "image": "images/ai-models/gemini-3-8-flash.svg"
+      },
+      {
+        "label": "Muse Wonder",
+        "image": "images/ai-models/muse-wonder.svg"
+      },
+      {
+        "label": "Muse Spark 1.3",
+        "image": "images/ai-models/muse-spark-1-3.svg"
+      }
+    ]
+  },
+  "youtube": {
+    "sectionEyebrow": "YouTube",
+    "sectionHeading": "मेरा\nचैनल",
+    "lead": "KausDiaries पर कनाडा और उससे आगे की ज़िंदगी से यात्रा डायरियाँ, रोज़मर्रा के पल और छोटी कहानियाँ।",
+    "cta": "सब्सक्राइब करें",
+    "channelUrl": "https://www.youtube.com/@KausDiaries"
+  },
+  "support": {
+    "eyebrow": "सहयोग",
+    "heading": "मुझे एक\nकॉफ़ी पिलाएँ",
+    "lead": "अगर यह पोर्टफ़ोलियो या मेरा काम आपके लिए उपयोगी रहा है, तो आप एक छोटा-सा धन्यवाद दे सकते हैं — इससे साइड प्रोजेक्ट्स और ओपन-सोर्स प्रयोग चलते रहते हैं।",
+    "cta": "मुझे एक कॉफ़ी पिलाएँ",
+    "url": "https://buymeacoffee.com/kaustubhdutta"
+  },
+  "githubActivity": {
+    "heading": "GITHUB\nगतिविधि",
+    "subtitle": "पिछले एक वर्ष में योगदान की लय।",
+    "profileLink": "GitHub पर {{user}}",
+    "username": "kdutta25"
+  },
+  "experience": {
+    "heading": "वर्षों का\nअनुभव",
+    "companies": [
+      {
+        "id": "nokia",
+        "name": "Nokia",
+        "logo": "images/companies/nokia.svg",
+        "roles": [
+          {
+            "title": "फुल स्टैक AI एप्लिकेशन डेवलपर II और प्रोजेक्ट डिज़ाइन लीड",
+            "period": "फ़र॰ 2024 — वर्तमान",
+            "location": "ओटावा, कनाडा",
+            "bullets": [
+              "Nokia के NSP प्रोडक्ट के User Manager, Group Manager और License Manager वेब एप्लिकेशन मॉड्यूल के लिए टीम लीड।",
+              "PLM और UX द्वारा परिकल्पित नई सुविधाओं के आधार पर एपिक्स और स्टोरीज़ तय करने में अहम भूमिका।",
+              "फ्रंट-एंड डिज़ाइन आर्किटेक्चर का नेतृत्व और हर स्प्रिंट के लिए टीम की क्षमता तय करना।"
+            ],
+            "stack": "Release Measurement · React 18 · Module Federation · TypeScript · Webpack 5 · Cypress · Regex · OpenStreetMap · AG Grid · Highcharts · D3 · Formik · Lodash · Popper · CodeMirror"
+          },
+          {
+            "title": "फुल स्टैक AI एप्लिकेशन डेवलपर II",
+            "period": "अक्टू॰ 2021 — फ़र॰ 2024",
+            "location": "ओटावा, कनाडा",
+            "bullets": [
+              "Module Federation का उपयोग करके Nokia के NSP फ्रंट एंड का विकास — webpack 5 की एक प्रमुख सुविधा, जो डिप्लॉय किए जा सकने वाले मॉड्यूल (माइक्रो-फ्रंटएंड) को ज़रूरत पड़ने पर ऑन-डिमांड लोड करने देती है।",
+              "User Manager मॉड्यूल के विकास में टीम लीड।"
+            ],
+            "stack": "React 18 · Module Federation · TypeScript · Webpack 5 · JUnit · Regex · OpenStreetMap · AG Grid · Highcharts · D3"
+          },
+          {
+            "title": "एप्लिकेशन डेवलपर",
+            "period": "मई 2020 — अक्टू॰ 2021",
+            "location": "ओटावा, कनाडा",
+            "bullets": [
+              "Nokia के NSP प्रोडक्ट की संबंधित लाइब्रेरियों में दोबारा इस्तेमाल होने वाले React कोर कंपोनेंट्स के विकास के लिए टीम लीड।",
+              "लाइब्रेरी वर्ज़निंग — सिमेंटिक।"
+            ],
+            "stack": "React 16 · JavaScript · CSS Flex · AG Grid · Highcharts · Regex"
+          },
+          {
+            "title": "सॉफ़्टवेयर डेवलपर और डेटा साइंटिस्ट — इंटर्न",
+            "period": "जन॰ 2020 — अप्रैल 2020",
+            "location": "ओटावा, कनाडा",
+            "bullets": [
+              "सॉफ़्टवेयर डेवलपमेंट टीमों पर नज़र रखने और उनसे जानकारी पाने के लिए स्वचालित Power BI रिपोर्ट्स का विकास।",
+              "Nokia Software (NSW) बिज़नेस ग्रुप के लिए आने वाले JIRA दोषों और लक्षित समाधान दिनों को ट्रैक करने हेतु DAX और Power Query से सर्विस लेवल एग्रीमेंट्स का विश्लेषण।"
+            ],
+            "stack": "Perl · Cron · MariaDB · DAX · Power BI Service"
+          },
+          {
+            "title": "सॉफ़्टवेयर डेवलपर और डेटा साइंटिस्ट — CO-OP",
+            "period": "अप्रैल 2019 — दिस॰ 2019",
+            "location": "ओटावा, कनाडा",
+            "bullets": [
+              "KPI गणनाएँ और PMO कार्यालय को अंतर्दृष्टि देने में मदद।",
+              "VBA मैक्रो, पिवट टेबल, एडवांस्ड Excel, Power Query।"
+            ],
+            "stack": "VBA · पिवट टेबल · Excel · Power Query"
+          }
+        ]
+      },
+      {
+        "id": "capgemini",
+        "name": "Capgemini Technology Services",
+        "logo": "images/companies/capgemini.svg",
+        "roles": [
+          {
+            "title": "सीनियर सॉफ़्टवेयर इंजीनियर",
+            "period": "जुलाई 2017 — जून 2018",
+            "location": "भारत",
+            "bullets": [
+              "Angular और TypeScript के साथ एंटरप्राइज़ SPA की डिलीवरी।",
+              "Willis Insurance और संबंधित क्लाइंट प्रोजेक्ट्स पर UX टीम के साथ सहयोग।"
+            ],
+            "stack": "Angular · TypeScript"
+          },
+          {
+            "title": "सॉफ़्टवेयर इंजीनियर",
+            "period": "मई 2016 — जून 2017",
+            "location": "भारत",
+            "bullets": [
+              "UX वायरफ़्रेम तैयार किए।",
+              "Willis Insurance के लिए UI डिज़ाइन — AngularJS में सिंगल पेज एप्लिकेशन।",
+              "Angular और JavaScript के साथ Marvel में UX वायरफ़्रेम।"
+            ],
+            "stack": "AngularJS · JavaScript"
+          }
+        ]
+      },
+      {
+        "id": "jio",
+        "name": "Reliance Jio",
+        "logo": "images/companies/jio.svg",
+        "roles": [
+          {
+            "title": "सॉफ़्टवेयर इंजीनियर इंटर्न — नेटवर्क ऑटोमेशन (LTE)",
+            "period": "मई 2015 — जून 2015",
+            "location": "भारत",
+            "bullets": [
+              "LTE नेटवर्क आर्किटेक्चर।",
+              "स्मॉल सेल प्लानिंग।",
+              "OFDM डाउनलिंक और SC-FDMA अपलिंक।",
+              "LTE चैनल क्षमता।",
+              "सेवा की गुणवत्ता (QoS)।",
+              "सॉफ़्ट / हार्ड हैंडऑफ़ का आर्किटेक्चर।"
+            ],
+            "stack": "LTE · OFDM · SC-FDMA · QoS · हैंडऑफ़ डिज़ाइन"
+          }
+        ]
+      },
+      {
+        "id": "siemens",
+        "name": "Siemens Networks",
+        "logo": "images/companies/siemens.svg",
+        "roles": [
+          {
+            "title": "सॉफ़्टवेयर इंजीनियर इंटर्न — नेटवर्क ऑटोमेशन",
+            "period": "मई 2014 — जुलाई 2014",
+            "location": "भारत",
+            "bullets": [
+              "सॉफ़्टस्टार्टर, और ABB Prosoft से 110, 160 व 220 kW मोटरों के टॉर्क-स्पीड और स्पीड-करंट वक्रों का प्लॉटिंग व विश्लेषण।",
+              "SIMOCODE का उपयोग करके SIEMENS SIMARIS वक्र और ट्रिपिंग विशेषताएँ — एक गतिशील और शक्तिशाली स्मार्ट मोटर प्रबंधन प्रणाली।",
+              "आवश्यक लोड को आपातकालीन बिजली देने की गणना के लिए डीज़ल जनरेटर का आकार निर्धारण।",
+              "कैपेसिटर बैंक का उपयोग करके AC सर्किट में वोल्टेज और करंट के फ़ेज़ अंतर को कम करने के लिए फ़ेज़ सुधार की गणना।"
+            ],
+            "stack": "SIMARIS · SIMOCODE · मोटर विश्लेषण · DG आकार निर्धारण · कैपेसिटर बैंक"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "heading": "शिक्षा",
+    "items": [
+      {
+        "school": "University of Ottawa",
+        "degree": "मास्टर्स, डेटा साइंस (कंप्यूटर साइंस और बिज़नेस टेक्नोलॉजी)",
+        "period": "2018 — 2020",
+        "detail": "ग्रेड A · पाठ्यक्रम में सॉफ़्टवेयर डेवलपमेंट (React, Angular, Java, SQL), डेटा एनालिटिक्स, मशीन लर्निंग, BI और ऑपरेशनल एक्सीलेंस शामिल।",
+        "logo": "images/education/uottawa.svg"
+      },
+      {
+        "school": "KIIT — Kalinga Institute of Industrial Technology",
+        "degree": "बैचलर्स, इलेक्ट्रॉनिक्स और टेलीकम्युनिकेशन · माइक्रो-कंट्रोलर सॉफ़्टवेयर",
+        "period": "2012 — 2016",
+        "detail": "प्रोजेक्ट्स: कंप्यूटेड टोमोग्राफ़ी इमेज पुनर्निर्माण, डॉन-टू-डस्क लैंप, वायरलेस स्पाईबॉट। सोसाइटी: रोबोटिक सोसाइटी, सोशल रिस्पॉन्सिबिलिटी सेल।",
+        "logo": "images/education/kiit.svg"
+      },
+      {
+        "school": "St. Xavier's Collegiate School Kolkata",
+        "degree": "हाई स्कूल",
+        "period": "2000 — 2012",
+        "detail": "",
+        "logo": "images/education/sxcal.png"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "हाल के\nप्रोजेक्ट्स",
+    "items": [
+      {
+        "title": "Hyperledger वाहन स्वामित्व और मूल्यह्रास",
+        "period": "जून 2019 — अप्रैल 2020",
+        "description": "वाहन स्वामित्व को ट्रैक करने और ऑटोमोटिव सुरक्षा व गोपनीयता के लिए VIN से मूल्यह्रास सूचकांक जोड़ने वाला स्मार्ट कॉन्ट्रैक्ट नेटवर्क। uOttawa के एक संभावित कोर्स असाइनमेंट के रूप में डिज़ाइन किया गया।",
+        "linkLabel": "साहित्य समीक्षा",
+        "url": "Kaustubh-Dutta-Literature-Review.pdf",
+        "secondaryLinkLabel": "प्रस्तुति",
+        "secondaryUrl": "Kaustubh-Dutta-Hyperledger-Blockchain-Presentation.pptx",
+        "coverImage": "images/projects/hyperledger-blockchain.svg",
+        "tags": ["Hyperledger", "ब्लॉकचेन"]
+      },
+      {
+        "title": "इमेज पुनर्निर्माण और कंप्यूटेड टोमोग्राफ़ी",
+        "period": "अप्रैल 2015 — मार्च 2016",
+        "description": "बेहतर पुनर्निर्माण गुणवत्ता के लिए MATLAB में बहु-कोणीय प्रोजेक्शन और वेवलेट डीनॉइज़िंग के साथ रेडॉन ट्रांसफ़ॉर्म।",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/ct-reconstruction.svg",
+        "tags": ["MATLAB", "सिग्नल प्रोसेसिंग"]
+      },
+      {
+        "title": "वायरलेस स्पाईबॉट",
+        "period": "मई 2014 — मार्च 2015",
+        "description": "निगरानी जैसी गतिविधियों के लिए लाइव वीडियो फ़ीडबैक वाला ATmega16 आधारित वायरलेस रोवर।",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/wireless-spybot.svg",
+        "tags": ["एम्बेडेड", "ATmega"]
+      },
+      {
+        "title": "डॉन-टू-डस्क स्वचालित लैंप",
+        "period": "अप्रैल 2014 — मई 2014",
+        "description": "आसपास की रोशनी को महसूस करके केवल ज़रूरत पड़ने पर ही बत्ती जलाकर बिजली बचाना।",
+        "linkLabel": "",
+        "url": "",
+        "coverImage": "images/projects/dawn-dusk-lamp.svg",
+        "tags": ["हार्डवेयर", "सेंसर"]
+      }
+    ]
+  },
+  "volunteering": {
+    "heading": "स्वयंसेवा",
+    "items": [
+      {
+        "org": "University of Ottawa",
+        "role": "वेबमास्टर",
+        "logo": "images/education/uottawa.svg"
+      },
+      {
+        "org": "Ontario Society of Professional Engineers",
+        "role": "सदस्य",
+        "logo": "images/volunteering/ospe.svg"
+      },
+      {
+        "org": "Canadian Blood Services",
+        "role": "स्वयंसेवक",
+        "logo": "images/volunteering/canadian-blood-services.svg"
+      }
+    ]
+  },
+  "publications": {
+    "heading": "शोध\nपत्र",
+    "referenceLabel": "प्रकाशन / प्रकाशक",
+    "viewLink": "प्रकाशन देखें",
+    "items": [
+      {
+        "title": "मानव जाति पर मशीन लर्निंग और आर्टिफ़िशियल इंटेलिजेंस के प्रभाव",
+        "meta": "IEEE Xplore - DOI: 10.1109/I2C2.2017.8321908 · 22 मार्च 2018",
+        "url": "https://ieeexplore.ieee.org/document/8321908/"
+      },
+      {
+        "title": "ब्लॉकचेन: डेटा सुरक्षा का आदर्श साधन",
+        "meta": "IEEE Xplore - DOI: 10.1109/I2C2.2017.8321932 · 22 मार्च 2018",
+        "url": "https://ieeexplore.ieee.org/document/8321932/"
+      },
+      {
+        "title": "Li-Fi: डेटा ट्रांसफ़र में एक संभावित गेम चेंजर",
+        "meta": "International Journal of Electrical, Electronics and Data Communication (IJEEDC) · 1 दिस॰ 2016",
+        "url": "https://www.iraj.in/journal/journal_file/journal_pdf/1-323-148465514261-65.pdf"
+      },
+      {
+        "title": "4G एप्लिकेशन के लिए MIMO-OFDM का उपयोग करके चैनल क्षमता का विश्लेषण",
+        "meta": "IJERT - 2016 (Volume 4 - Issue 28) · 1 मार्च 2016",
+        "url": "https://www.ijert.org/analysis-of-channel-capacity-using-mimo-ofdm-for-4g-applications"
+      }
+    ]
+  },
+  "chatbot": {
+    "ariaLabel": "Portfolio assistant",
+    "title": "Assistant",
+    "open": "Open assistant",
+    "close": "Close assistant",
+    "placeholder": "Ask about Kaustubh or type a section…",
+    "send": "Send",
+    "emptyPrompt": "Type a question or tap a section chip.",
+    "aboutAnswer": "Kaustubh is a full stack AI application developer and Design Lead based in Ottawa, focused on resilient React front ends and dependable tooling for Nokia NSP. This site expands on his background under About Me.",
+    "linkedinAnswer": "Live LinkedIn scraping isn’t possible from the browser here (technical limits). Open the public profile for the latest: {{url}}\n\nAnswers in this assistant use this portfolio’s content.",
+    "linkedinOpenProfile": "Open live LinkedIn profile: {{url}}",
+    "fallback": "I’m a simple navigator — ask about experience, skills, education, projects, publications, or volunteering.",
+    "trySections": "Tip: use the chips above to jump to a section.",
+    "navigatedHint": "Scrolled that section into view.",
+    "snippetExperience": "Experience spans Nokia (full stack & Design Lead), Capgemini, Jio, and Siemens — details are in Experience.",
+    "snippetSkills": "Languages and frameworks — plus Postman, Jenkins, and Jira — are listed under Skills.",
+    "snippetProjects": "Featured builds include a Hyperledger network project, CT reconstruction, and embedded work.",
+    "snippetEducation": "Master’s (Data Science) at uOttawa, bachelor’s at KIIT, high school at St. Xavier’s Kolkata.",
+    "snippetVolunteering": "Volunteering includes Webmaster work at uOttawa, OSPE, and Canadian Blood Services — see Volunteering.",
+    "snippetPublications": "IEEE and other publications are linked under Publications.",
+    "snippetAiModels": "Claude (Opus, Sonnet, Haiku), GPT-5.6 (Sol, Terra, Luna), Gemini (4 Carbon, Hydrogen, Argon, 3.8 Flash) and Muse (Wonder, Spark) models appear under Models & Assistants in the Professional skillset.",
+    "snippetSupport": "You can leave a thank-you via Buy Me a Coffee under Support.",
+    "snippetGitHub": "Contribution activity is shown in the GitHub section.",
+    "userAskSection": "Open {{section}}",
+    "navigatedTo": "Scrolling to {{section}}.",
+    "openedReadmeTab": "Opened this site’s README on GitHub in a new tab."
+  },
+  "footer": {
+    "line1": "Kaus द्वारा डिज़ाइन और विकसित",
+    "line2": "कॉपीराइट © {{year}} KD",
+    "built": "React, TypeScript और Vite से निर्मित",
+    "email": "kdutta2511@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kaustubh-dutta/",
+    "website": "https://www.kaustubhdutta.com",
+    "github": "https://github.com/kdutta25",
+    "twitter": "https://twitter.com/KaustubhDutta",
+    "instagram": "https://www.instagram.com/kausklicks/",
+    "youtube": "https://www.youtube.com/@KausDiaries",
+    "youtubeAria": "YouTube — KausDiaries"
+  }
+}
