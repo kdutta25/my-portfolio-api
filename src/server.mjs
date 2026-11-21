@@ -21,6 +21,9 @@ function normalizeApiMountPath() {
 
 const API_MOUNT = normalizeApiMountPath();
 
+/** Locale files under data/locales/; every one must carry all FRAGMENTS. */
+const LANGUAGES = ["en", "fr", "hi", "bn"];
+
 const FRAGMENTS = new Set([
   "site",
   "nav",
@@ -69,7 +72,7 @@ async function loadLocale(lng) {
 /** Log mismatches between FRAGMENTS and locale files (missing keys → GET 404). */
 function validateLocaleFragmentKeys() {
   const issues = [];
-  for (const lng of ["en", "fr"]) {
+  for (const lng of LANGUAGES) {
     const path = join(DATA, "locales", `${lng}.json`);
     let obj;
     try {
@@ -123,19 +126,15 @@ api.get("/health", (_req, res) => {
 
 api.get("/v1/site-content", async (_req, res) => {
   try {
-    const [resumeRaw, linkedinRaw, enRaw, frRaw] = await Promise.all([
+    const [resumeRaw, linkedinRaw, ...localeRaws] = await Promise.all([
       readFile(join(DATA, "resume-corpus.json"), "utf8"),
       readFile(join(DATA, "linkedin-snapshot.json"), "utf8"),
-      readFile(join(DATA, "locales", "en.json"), "utf8"),
-      readFile(join(DATA, "locales", "fr.json"), "utf8"),
+      ...LANGUAGES.map((lng) => readFile(join(DATA, "locales", `${lng}.json`), "utf8")),
     ]);
     res.json({
       resumeCorpus: JSON.parse(resumeRaw),
       linkedinSnapshot: JSON.parse(linkedinRaw),
-      locales: {
-        en: JSON.parse(enRaw),
-        fr: JSON.parse(frRaw),
-      },
+      locales: Object.fromEntries(LANGUAGES.map((lng, i) => [lng, JSON.parse(localeRaws[i])])),
     });
   } catch (e) {
     console.error(e);
@@ -145,7 +144,7 @@ api.get("/v1/site-content", async (_req, res) => {
 
 api.get("/v1/fragments/:lng/:fragment", async (req, res) => {
   const { lng, fragment } = req.params;
-  if (lng !== "en" && lng !== "fr") {
+  if (!LANGUAGES.includes(lng)) {
     res.status(400).json({ error: "Invalid language" });
     return;
   }
@@ -166,7 +165,7 @@ api.get("/v1/fragments/:lng/:fragment", async (req, res) => {
         reason: "missing_locale_key",
         lng,
         fragment,
-        hint: `Add a "${fragment}" object to data/locales/${lng}.json (same top-level keys as en/fr peers).`,
+        hint: `Add a "${fragment}" object to data/locales/${lng}.json (same top-level keys as the other locale files).`,
       });
       return;
     }
